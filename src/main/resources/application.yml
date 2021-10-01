@@ -1,0 +1,19 @@
+#port 8081로 설정
+server:
+  port: 8081
+
+#oracle 연동
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@127.0.0.1:1521:XE
+    username: hr
+    password: hr
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/, classpath:/resources/, classpath:/static/, classpath:/public/, classpath:/static/dist
+
+    
+#mybatis 설정
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml

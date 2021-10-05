@@ -1,4 +1,4 @@
-package jayks.com;
+package jayks.com.user.vo;
 
 import java.sql.Date;
 

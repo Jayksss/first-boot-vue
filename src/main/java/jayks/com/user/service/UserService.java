@@ -1,6 +1,8 @@
-package jayks.com;
+package jayks.com.user.service;
 
 import java.util.List;
+
+import jayks.com.user.vo.UserVO;
 
 public interface UserService {
 	
